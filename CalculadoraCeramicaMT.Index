@@ -1,0 +1,36 @@
+Índice do Arquivo CalCeramicaMT
+O arquivo CalCeramicaMT foi criado para calcular a quantidade de cerâmica necessária para revestir um cômodo, evitando desperdício de material ou a compra de uma quantidade inferior à necessária.
+
+Descrição dos Principais Elementos
+Função calcular()
+
+Objetivo: Realizar o cálculo da quantidade de cerâmica necessária.
+Processo:
+Solicita as medidas do cômodo (altura e largura).
+Solicita a medida do lado do azulejo.
+Calcula a área total do cômodo.
+Calcula a área de cada azulejo.
+Determina a quantidade de azulejos necessários.
+Calcula a quantidade de caixas de azulejos necessárias (considerando 36 azulejos por caixa).
+Exibe os resultados na interface do usuário.
+Elementos de Interface
+
+Inputs:
+alturaComodo: Campo para entrada da altura do cômodo.
+larguraComodo: Campo para entrada da largura do cômodo.
+ladoAzulejo: Campo para entrada da medida do lado do azulejo.
+Output:
+resultado: Elemento onde os resultados dos cálculos são exibidos.
+Cálculos Realizados
+
+Área Total do Cômodo: alturaComodo * larguraComodo
+Área de Cada Azulejo: ladoAzulejo * ladoAzulejo
+Quantidade de Azulejos Necessários: Math.ceil(areaTotalComodo / areaAzulejo)
+Quantidade de Caixas Necessárias: Math.ceil(quantidadeAzulejos / 36)
+Logs de Depuração
+
+Mensagens de log para verificar os valores de entrada e os cálculos realizados.
+Uso
+Preencha os campos de entrada com as medidas do cômodo e do azulejo.
+Clique no botão de calcular.
+Verifique os resultados exibidos no elemento de resultado.
