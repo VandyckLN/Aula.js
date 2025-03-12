@@ -1,0 +1,258 @@
+html {
+  font-family: "Roboto";
+}
+nav.menu {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+
+  background-color: #f5f5f5;
+  box-shadow: 2px 1px 110px rgba(0, 0, 0, 0.1);
+}
+div.youtubelogo {
+  display: flex;
+  max-width: 100px;
+  height: 24px;
+  position: relative;
+  top: -40px; /* Valor negativo move para cima */
+  margin-top: 10px; /* Ajuste conforme necessário */
+  gap: 20px; /* Aumentado o espaçamento entre os elementos */
+  cursor: pointer;
+}
+
+div.pesquisa {
+  width: 240px; /* Aumentado para acomodar input + botão */
+  height: 30px;
+  display: flex;
+  align-items: center;
+  position: relative;
+  left: 620px;
+  border: 1px solid #cccccc;
+  border-radius: 4px;
+  overflow: hidden; /* Para manter os elementos dentro da borda */
+}
+
+button.button {
+  width: 40px;
+  height: 100%; /* Ajustado para ocupar altura total do container */
+  position: relative; /* Mudado de absolute para relative */
+  border: none; /* Remove a borda do botão */
+  pointer-events: visible;
+  cursor: pointer;
+}
+
+input {
+  width: 200px;
+  height: 100%; /* Ajustado para ocupar altura total do container */
+  border: none; /* Remove a borda do input */
+  border-radius: 0; /* Remove o border-radius do input */
+  font-size: 16px;
+  color: #333;
+  background-color: #fff;
+  box-shadow: none; /* Remove a sombra do input */
+}
+
+img.foto {
+  display: flex;
+  position: relative;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  cursor: pointer;
+  top: 0; /* Remove o deslocamento negativo */
+  left: 0; /* Remove o deslocamento à esquerda */
+  margin: 0; /* Remove margens */
+}
+
+camera-container {
+  width: 14px;
+  height: 10px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.bell {
+  position: absolute;
+  top: 3px;
+  left: 8px;
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+}
+
+.img2camera {
+  position: relative;
+  width: 5px;
+  height: 5px;
+
+  object-fit: contain;
+}
+
+.menu-direito {
+  display: flex;
+  align-items: center;
+  gap: 50px; /* Aumentado o espaçamento entre os elementos */
+  position: absolute;
+  right: 25px;
+  top: 5px;
+}
+
+.bell-container {
+  width: 24px;
+  height: 24px;
+  position: relative;
+  cursor: pointer;
+}
+
+.img1camera,
+.img2camera {
+  width: 18px;
+  height: 19px;
+  object-fit: contain; /* Ajusta a imagem ao container */
+}
+div.conteudo {
+  display: flex;
+  justify-content: end;
+  flex-direction: column;
+  width: 370px; /* Largura fixa */
+  height: 938px; /* Altura fixa */
+  margin-left: 1500px;
+  gap: 10px; /* Aumentado o espaçamento entre os elementos */
+
+  overflow-y: auto; /* Adiciona scroll vertical se necessário */
+}
+
+div.video-1 {
+  width: 100%; /* Ocupa toda a largura do container pai */
+  margin-right: 0; /* Remove margem direita */
+}
+
+div.video-2 {
+  width: 100%; /* Ocupa toda a largura do container pai */
+  margin-right: 0; /* Remove margem direita */
+}
+div.videosPlayer {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  gap: 5px; /* Aumentado o espaçamento entre os elementos */
+  margin-top: -900px;
+  margin-left: -700px;
+}
+img.videoPrincipal {
+  border-radius: 5px;
+  cursor: pointer;
+  padding-left: 190px;
+  width: 800px;
+}
+div.Vide-Actions {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 20px;
+  width: 800px;
+  padding: 16px;
+
+  position: relative;
+  left: 37%;
+  transform: translateX(-50%);
+}
+p.title {
+  font-size: 18px;
+  color: #333;
+  text-align: left;
+  width: 800px;
+  margin: 16px auto;
+  margin-left: 280px;
+  padding: 10px 16px;
+}
+button.Inscrevase {
+  width: 159px;
+  height: 40px;
+  background-color: #cc0000;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-left: auto;
+}
+img.avatarChanel {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 16px;
+}
+.channel-info {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  margin-left: 16px;
+}
+p.visualizações {
+  font-size: 14px;
+  color: #606060;
+  padding-left: 400px;
+  position: relative;
+}
+p.descricao {
+  font-size: 14px;
+  color: #000000;
+  position: relative; /* Mudado de fixed para relative */
+  width: 800px; /* Largura máxima para o texto */
+  margin: 20px auto; /* Centraliza horizontalmente */
+  left: -250px;
+  text-align: left; /* Alinhamento do texto à esquerda */
+  line-height: 1.5; /* Melhor espaçamento entre linhas */
+  padding: 0 20px; /* Espaçamento interno */
+}
+
+.menu-container {
+  position: fixed;
+  top: 10px;
+  left: 20px;
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+}
+
+.Menulista {
+  cursor: pointer;
+  width: 17px;
+  height: 20px;
+  padding: 3px;
+  padding-left: 10px;
+}
+
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  background-color: white;
+  min-width: 240px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1000;
+  border-radius: 12px;
+  top: 100%;
+  left: -23px;
+  margin-top: 0px;
+}
+
+.dropdown-menu a {
+  color: #0f0f0f;
+  padding: 10px 10px;
+  text-decoration: none;
+  display: block;
+  font-size: 14px;
+  transition: background-color 0.2s;
+}
+
+.dropdown-menu a:hover {
+  background-color: #f2f2f2;
+}
+
+/* Mostra o menu quando passa o mouse por cima */
+.menu-container:hover .dropdown-menu {
+  display: block;
+}

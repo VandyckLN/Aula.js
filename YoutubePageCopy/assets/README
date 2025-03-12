@@ -1,0 +1,67 @@
+# YouTube Page Copy
+
+Uma réplica da interface do YouTube desenvolvida com HTML e CSS puro, focando em práticas modernas de desenvolvimento web e design responsivo.
+
+## 🛠 Tecnologias Utilizadas
+
+- HTML5
+- CSS3
+  - Flexbox
+  - Position
+  - Transform
+  - Transitions
+  - Media Queries
+  - Pseudo-elementos
+  - Pseudo-classes
+
+## 📋 Características
+
+- Layout responsivo
+- Menu dropdown interativo
+- Sistema de grid para vídeos
+- Barra de pesquisa funcional
+- Botões interativos
+- Interface de usuário moderna
+- Ícones e imagens otimizados
+
+## 🎨 Design
+
+O projeto replica os seguintes elementos do YouTube:
+
+- Cabeçalho com logo e menu de navegação
+- Barra de pesquisa central
+- Menu de usuário (perfil, notificações, upload)
+- Grid de vídeos recomendados
+- Player de vídeo principal
+- Seção de comentários
+- Menu lateral retrátil
+
+## 💻 Como Executar
+
+1. Clone o repositório:
+
+```bash
+git clone https://seu-repositorio/youtube-page-copy.git
+```
+
+2. Abra o arquivo `index.html` em seu navegador
+
+## 📁 Estrutura do Projeto
+
+```
+youtube-page-copy/
+├── assets/
+│   ├── Imagens/
+│   │   └── [imagens do projeto]
+│   ├── Stylle.css
+│   └── assets.Html
+└── README.md
+```
+
+## 🎯 Objetivos do Projeto
+
+- Praticar HTML e CSS modernos
+- Implementar layout responsivo
+- Replicar componentes complexos do YouTube
+- Trabalhar com posicionamento de elementos
+- Criar interações com hover e transitions

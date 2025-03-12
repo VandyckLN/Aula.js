@@ -1,0 +1,46 @@
+div a{ 
+    color: aquamarine;
+     font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: darkviolet;
+    padding: 2px;
+    border-radius: 5px;
+    text-decoration: solid;
+    margin: 400px;
+    letter-spacing: 0.5px;
+}
+
+h1 {
+
+    color: darkviolet;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: aquamarine;
+    padding: 2px;
+letter-spacing: 0.5cm;
+    border-radius: 5px;
+    text-decoration: solid;
+    text-align: center;
+}
+link a{
+    
+    color: rgb(221, 0, 0);
+    align-items: center;
+    padding: 10%;
+  font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(125, 144, 151);
+    padding: 2px;
+    border-radius: 5px;
+    text-decoration: solid;
+    margin: 40px;
+    letter-spacing: 0.5px;
+}
+.list{
+    color: rgb(45, 143, 0);
+    font-family: 'sans-serif';
+    background-color: rgb(29, 29, 29);
+    padding: 2px;
+    border-radius: 5px;
+    text-decoration: solid;
+    margin: 40px;
+    letter-spacing: 0.5px;
+}

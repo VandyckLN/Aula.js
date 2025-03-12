@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Adicione esta linha para o favicon -->
+    <link rel="icon" type="image/x-icon" href="Imagens/icones/youtube.svg" />
+    <title>Youtube Page</title>
+    <link rel="stylesheet" href="stylling.css" />
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <header class="header">
+      <div class="logo">
+        <img class="Menu-List" src="Imagens/menu.png" alt="" />
+        <img src="Imagens/youtube 1.png" alt="YouTube Logo" />
+      </div>
+      <div class="search-bar">
+        <input
+          type="text"
+          placeholder="Pesquisar"
+          aria-label="Campo de pesquisa"
+        />
+        <button type="button" aria-label="Botão de pesquisa">
+          <img src="Imagens/search.svg" alt="Ícone de pesquisa" />
+        </button>
+      </div>
+      <div class="user-actions">
+        <img
+          src="Imagens/imgvideos/Youtubelogo.svg.png"
+          alt="Criar vídeo"
+          class="action-icon"
+        />
+        <img
+          src="Imagens/bell (1).svg"
+          alt="Notificações"
+          class="action-icon"
+        />
+        <img
+          src="Imagens/F551E932-5A79-48D8-ADAF-691ED164BD5F.jpg"
+          alt="Avatar"
+          class="user-avatar"
+        />
+      </div>
+    </header>
+
+    <div class="main-container">
+      <aside class="sidebar">
+        <nav>
+          <ul class="menu-list">
+            <li class="active">
+              <svg
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+                class="home-icon"
+              >
+                <path
+                  d="M3 9L12 2L21 9V20C21 20.5304 20.7893 21.0391 20.4142 21.4142C20.0391 21.7893 19.5304 22 19 22H5C4.46957 22 3.96086 21.7893 3.58579 21.4142C3.21071 21.0391 3 20.5304 3 20V9Z"
+                  stroke="black"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+                <path
+                  d="M9 22V12H15V22"
+                  stroke="black"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+              <a href="#"><span>Início</span></a>
+            </li>
+            <li>
+              <img src="Imagens/icones/compass@2x.png" alt="" />
+              <a href="#"><span>Explorar</span></a>
+            </li>
+            <li>
+              <img src="Imagens/icones/youtube.svg" alt="" />
+              <a href="#"><span>Inscrições</span></a>
+            </li>
+
+            <div class="menu-divider"></div>
+
+            <li>
+              <img src="Imagens/icones/book.svg" alt="" />
+              <a href="#"><span>Biblioteca</span></a>
+            </li>
+            <li>
+              <img src="Imagens/icones/disc.png" alt="" />
+              <a href="#"><span>YouTube Music</span></a>
+            </li>
+            <li>
+              <img src="Imagens/icones/thumbs-up.png" alt="" />
+              <a href="#"><span>Videos que gostei </span></a>
+            </li>
+            <li>
+              <img src="Imagens/icones/award.svg" alt="" />
+              <a href=""><span>Esportes</span></a>
+            </li>
+          </ul>
+        </nav>
+      </aside>
+
+      <div class="content-wrapper">
+        <!-- Barra de navegação com chips -->
+        <nav class="filter-navigation">
+          <div class="filter-container">
+            <button class="nav-arrow left" aria-label="Navegar para esquerda">
+              <img src="Imagens/arrow-small-left_10513325.svg" alt="Anterior" />
+            </button>
+
+            <div class="chips-wrapper">
+              <div class="chips-container">
+                <div class="chip active">Tudo</div>
+                <div class="chip">JavaScript</div>
+                <div class="chip">React</div>
+                <div class="chip">Node.js</div>
+                <div class="chip">Python</div>
+                <div class="chip">CSS</div>
+                <div class="chip">TypeScript</div>
+                <div class="chip">Vue.js</div>
+                <div class="chip">Angular</div>
+                <div class="chip">MongoDB</div>
+                <div class="chip">SQL</div>
+                <div class="chip">Docker</div>
+              </div>
+            </div>
+
+            <button class="nav-arrow right" aria-label="Navegar para direita">
+              <img src="Imagens/arrow-right_3916800.svg" alt="Próximo" />
+            </button>
+          </div>
+        </nav>
+
+        <!-- Área de conteúdo principal -->
+        <main class="content-area">
+          <!-- Video Card 1 (Original) -->
+          <div class="video-card">
+            <div class="thumbnail">
+              <img
+                src="Imagens/imgVideos1/image 16 (1).png"
+                alt="Thumbnail do vídeo"
+              />
+              <span class="duration">10:15</span>
+            </div>
+            <div class="video-info">
+              <img
+                src="Imagens/Channel Avatar.png"
+                alt="Avatar do canal"
+                class="channel-avatar"
+              />
+              <div class="video-details">
+                <h3 class="video-title">Título do Vídeo Interessante</h3>
+                <p class="channel-name">Nome do Canal</p>
+                <p class="video-metadata">1M visualizações • há 3 dias</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Video Card 2 -->
+          <div class="video-card">
+            <div class="thumbnail">
+              <img
+                src="Imagens/imgVideos1/image 16 (2).png"
+                alt="Thumbnail do vídeo"
+              />
+              <span class="duration">8:45</span>
+            </div>
+            <div class="video-info">
+              <img
+                src="Imagens/Channel Avatar.png"
+                alt="Avatar do canal"
+                class="channel-avatar"
+              />
+              <div class="video-details">
+                <h3 class="video-title">Como Criar um Layout Responsivo</h3>
+                <p class="channel-name">Dev Channel</p>
+                <p class="video-metadata">500K visualizações • há 1 semana</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Video Card 3 -->
+          <div class="video-card">
+            <div class="thumbnail">
+              <img
+                src="Imagens/imgVideos1/image 16 (3).png"
+                alt="Thumbnail do vídeo"
+              />
+              <span class="duration">15:30</span>
+            </div>
+            <div class="video-info">
+              <img
+                src="Imagens/Channel Avatar.png"
+                alt="Avatar do canal"
+                class="channel-avatar"
+              />
+              <div class="video-details">
+                <h3 class="video-title">Dicas de Programação Essenciais</h3>
+                <p class="channel-name">Code Masters</p>
+                <p class="video-metadata">750K visualizações • há 5 dias</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Video Card 4 -->
+          <div class="video-card">
+            <div class="thumbnail">
+              <img
+                src="Imagens/imgvideos/Gridlayout.jpg"
+                alt="Thumbnail do vídeo"
+              />
+              <span class="duration">23:20</span>
+            </div>
+            <div class="video-info">
+              <img
+                src="Imagens/Channel Avatar.png"
+                alt="Avatar do canal"
+                class="channel-avatar"
+              />
+              <div class="video-details">
+                <h3 class="video-title">Aprenda Grid Layout em 20 Minutos</h3>
+                <p class="channel-name">CSS Pro Tips</p>
+                <p class="video-metadata">300K visualizações • há 2 semanas</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Video Card 5 -->
+          <div class="video-card">
+            <div class="thumbnail">
+              <img
+                src="Imagens/imgvideos/javascript-1.jpg"
+                alt="Thumbnail do vídeo"
+              />
+              <span class="duration">20:00</span>
+            </div>
+            <div class="video-info">
+              <img
+                src="Imagens/Channel Avatar.png"
+                alt="Avatar do canal"
+                class="channel-avatar"
+              />
+              <div class="video-details">
+                <h3 class="video-title">Fundamentos de JavaScript</h3>
+                <p class="channel-name">JS Academy</p>
+                <p class="video-metadata">1.2M visualizações • há 1 mês</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Cards 6-10 (cópias) -->
+          <!-- Video Card 6 -->
+          <div class="video-card">
+            <div class="thumbnail">
+              <img
+                src="https://images.unsplash.com/photo-1633356122544-f134324a6cee"
+                alt="Thumbnail do vídeo"
+              />
+              <span class="duration">18:45</span>
+            </div>
+            <div class="video-info">
+              <img
+                src="Imagens/Channel Avatar.png"
+                alt="Avatar do canal"
+                class="channel-avatar"
+              />
+              <div class="video-details">
+                <h3 class="video-title">React Native do Zero</h3>
+                <p class="channel-name">Mobile Dev</p>
+                <p class="video-metadata">200K visualizações • há 4 dias</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Video Card 7 -->
+          <div class="video-card">
+            <div class="thumbnail">
+              <img
+                src="https://images.unsplash.com/photo-1649180556628-9ba704115795"
+                alt="Thumbnail do vídeo"
+              />
+              <span class="duration">25:30</span>
+            </div>
+            <div class="video-info">
+              <img
+                src="Imagens/Channel Avatar.png"
+                alt="Avatar do canal"
+                class="channel-avatar"
+              />
+              <div class="video-details">
+                <h3 class="video-title">Python para Iniciantes</h3>
+                <p class="channel-name">Python Masters</p>
+                <p class="video-metadata">450K visualizações • há 2 dias</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Video Card 8 -->
+          <div class="video-card">
+            <div class="thumbnail">
+              <img
+                src="https://images.unsplash.com/photo-1561736778-92e52a7769ef"
+                alt="Thumbnail do vídeo"
+              />
+              <span class="duration">32:15</span>
+            </div>
+            <div class="video-info">
+              <img
+                src="Imagens/Channel Avatar.png"
+                alt="Avatar do canal"
+                class="channel-avatar"
+              />
+              <div class="video-details">
+                <h3 class="video-title">Node.js com Express</h3>
+                <p class="channel-name">Backend Pro</p>
+                <p class="video-metadata">180K visualizações • há 1 semana</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Video Card 9 -->
+          <div class="video-card">
+            <div class="thumbnail">
+              <img
+                src="https://images.unsplash.com/photo-1629904853716-f0bc54eea481"
+                alt="Thumbnail do vídeo"
+              />
+              <span class="duration">15:20</span>
+            </div>
+            <div class="video-info">
+              <img
+                src="Imagens/Channel Avatar.png"
+                alt="Avatar do canal"
+                class="channel-avatar"
+              />
+              <div class="video-details">
+                <h3 class="video-title">Componentes Vue.js</h3>
+                <p class="channel-name">Vue Masters</p>
+                <p class="video-metadata">120K visualizações • há 6 dias</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Video Card 10 -->
+          <div class="video-card">
+            <div class="thumbnail">
+              <img
+                src="https://images.unsplash.com/photo-1627398242454-45a1465c2479"
+                alt="Thumbnail do vídeo"
+              />
+              <span class="duration">28:40</span>
+            </div>
+            <div class="video-info">
+              <img
+                src="Imagens/Channel Avatar.png"
+                alt="Avatar do canal"
+                class="channel-avatar"
+              />
+              <div class="video-details">
+                <h3 class="video-title">TypeScript Avançado</h3>
+                <p class="channel-name">TS Experts</p>
+                <p class="video-metadata">90K visualizações • há 3 dias</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Video Card 11 -->
+          <div class="video-card">
+            <div class="thumbnail">
+              <img
+                src="Imagens/imgvideos/Video (5).png"
+                alt="Thumbnail do vídeo"
+              />
+              <span class="duration">42:15</span>
+            </div>
+            <div class="video-info">
+              <img
+                src="Imagens/Channel Avatar.png"
+                alt="Avatar do canal"
+                class="channel-avatar"
+              />
+              <div class="video-details">
+                <h3 class="video-title">APIs RESTful com Node.js</h3>
+                <p class="channel-name">API Masters</p>
+                <p class="video-metadata">320K visualizações • há 5 dias</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Video Card 12 -->
+          <div class="video-card">
+            <div class="thumbnail">
+              <img
+                src="https://images.unsplash.com/photo-1614741118887-7a4ee193a5fa"
+                alt="Thumbnail do vídeo"
+              />
+              <span class="duration">35:50</span>
+            </div>
+            <div class="video-info">
+              <img
+                src="Imagens/Channel Avatar.png"
+                alt="Avatar do canal"
+                class="channel-avatar"
+              />
+              <div class="video-details">
+                <h3 class="video-title">MongoDB: Do Básico ao Avançado</h3>
+                <p class="channel-name">Database Pro</p>
+                <p class="video-metadata">280K visualizações • há 1 semana</p>
+              </div>
+            </div>
+          </div>
+        </main>
+      </div>
+    </div>
+  </body>
+</html>
